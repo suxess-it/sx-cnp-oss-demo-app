@@ -13,7 +13,7 @@ images:
 entry:
   repositoryBasename: entry
   tag: "latest"
-  serviceType: LoadBalancer
+  serviceType: ClusterIP
   servicePort: 9000
   env: []
   #   - name: PODTATO_PART_NUMBER
