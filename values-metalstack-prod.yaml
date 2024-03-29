@@ -1,7 +1,7 @@
 # applies to podtato-head-entry deployment only
 ingress:
   hosts:
-    - host: prod-demo-app-metalstack-.platform-engineer.cloud
+    - host: prod-demo-app-metalstack.platform-engineer.cloud
       paths:
         - path: /
           pathType: ImplementationSpecific
