@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sx-cnp-demo-app"
+  annotations:
+    github.com/project-slug: suxess-it/sx-cnp-demo-app
+    backstage.io/kubernetes-id: sx-cnp-demo-app
+    argocd/app-name: "prod-demo-app"
+    backstage.io/techdocs-ref: dir:.
+    kubecost.com/deployment-name: prod-demo-app-podtato-head-left-leg
+    grafana/dashboard-selector: "(tags @> '4GoldenSignals')"
+    grafana/overview-dashboard: "https://grafana.apps.cluster1.mcp.pitagora.at/d/KRlE7mE4z/4-golden-signals-sx-cnp?orgId=1&refresh=5s&var-namespace=suxess-it-dev&var-workload=my-kubernetes-component&var-service=sx-monitor-demo-app-service"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sx-authors
