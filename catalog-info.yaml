@@ -4,6 +4,7 @@ metadata:
   name: "sx-cnp-demo-app"
   annotations:
     github.com/project-slug: suxess-it/sx-cnp-demo-app
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=prod-demo-app'
     backstage.io/kubernetes-id: sx-cnp-demo-app
     argocd/app-name: "prod-demo-app"
     backstage.io/techdocs-ref: dir:.
