@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     kubecost.com/deployment-name: prod-demo-app-podtato-head-left-leg
     grafana/dashboard-selector: "(tags @> '4GoldenSignals')"
-    grafana/overview-dashboard: "https://grafana-127-0-0-1.nip.io:8667/d/a87fb0d919ec0ea5f6543124e16c42a5/kubernetes-compute-resources-namespace-workloads?orgId=1&refresh=10s&var-datasource=default&var-cluster=&var-namespace=prod-demo-app&var-type=All"
+    grafana/overview-dashboard: "https://grafana-127-0-0-1.nip.io/d/a87fb0d919ec0ea5f6543124e16c42a5/kubernetes-compute-resources-namespace-workloads?orgId=1&refresh=10s&var-datasource=default&var-cluster=&var-namespace=prod-demo-app&var-type=All"
 spec:
   type: service
   lifecycle: experimental
